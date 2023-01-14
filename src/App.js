@@ -14,8 +14,8 @@ function App() {
         <Navbar />
       </header>
       {/* Pulled out Home and Footer component from the header element */}
-      {/* <Home /> */}
-      {/* <Footer /> */}
+      <Home /> 
+      <Footer />
     </div>
   );
 }
