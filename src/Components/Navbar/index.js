@@ -18,7 +18,7 @@ function MyNavbar() {
               <NavDropdown.Item href="#action/3.2">
                 Project 2: Online Farmers Market, Veggiebook
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Note-Taker</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
