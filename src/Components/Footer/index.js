@@ -20,8 +20,8 @@ function Footer() {
           <Col xs={12} md={4}>
             <h3>Social Media</h3>
             <ul>
-              <li>Facebook: Josh Delmonte</li>
-              <li>LinkedIn: linkedin.com/in/joshua-delmonte-51090b215</li>
+              <li href="https://www.facebook.com/joshdelmonte">Facebook: Josh Delmonte</li>
+              <li href="https://www.linkedin.com/in/joshua-delmonte-51090b215/">LinkedIn: linkedin.com/in/joshua-delmonte-51090b215</li>
             </ul>
           </Col>
         </Row>
