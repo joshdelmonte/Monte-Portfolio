@@ -3,14 +3,15 @@ import './App.css';
 
 //Page Imports
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from '.Pages/Home';
+import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
-import About from './Pages/About/about';
-import Portfolio from '.Pages/Portfolio';
-import Contact from '.Pages/Contact';
-import Resume from './Resume';
-import Footer from './Footer';
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
+import Resume from './Pages/Resume';
+import Footer from './Components/Footer/footer';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
       <Route path="/contact">
         <Contact />
       </Route>
-      <Route path="/index.js">
+      <Route path="/resume">
         <Resume />
       </Route>
       <Route path="/">
