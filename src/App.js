@@ -6,11 +6,11 @@ import Navbar from './Components/Navbar'
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './home';
-import About from './about';
-import Portfolio from './portfolio';
-import Contact from './contact';
-import Resume from './resume';
-import Footer from './footer';
+import About from './Pages/About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
+import Footer from './Footer';
 
 function App() {
   return (
