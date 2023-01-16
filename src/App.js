@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 //Page Imports
-import Navbar from './Components/Navbar'
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './home';
-import About from './Pages/About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import Home from '.Pages/Home';
+import Navbar from './Components/Navbar';
+import About from './Pages/About/about';
+import Portfolio from '.Pages/Portfolio';
+import Contact from '.Pages/Contact';
 import Resume from './Resume';
 import Footer from './Footer';
 
@@ -31,7 +31,7 @@ function App() {
       <Route path="/contact">
         <Contact />
       </Route>
-      <Route path="/resume">
+      <Route path="/index.js">
         <Resume />
       </Route>
       <Route path="/">

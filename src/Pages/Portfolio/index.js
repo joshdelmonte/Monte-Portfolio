@@ -61,11 +61,11 @@ const Portfolio = () => {
               alt="Developer Photo"
               className="mb-3"
             />
-            <p>Short bio about the developer.</p>
+            <p>Short bio about me</p>
           </>
         )}
         {activeTab === 'portfolio' && (
-          <>
+          
             <div className="d-flex flex-wrap">
               <a href="#">
                 <img
@@ -103,5 +103,46 @@ const Portfolio = () => {
                     <img src="project-5.jpg" alt="Project 5" className="img-thumbnail mr-3 mb-3" />
                     <p>Project 5</p>
                 </a>
+                
+            </div>
 
-                </Container>
+        )}  
+
+        {activeTab === 'contact' && (
+            <Form>
+                <Form.Group controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text>
+                </Form.Group>
+
+                <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Control as="textarea" rows="3" />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
+        )}
+
+        {activeTab === 'resume' && (
+            <a href="https://bold.pro/my/joshua-delmonte" target="_blank" rel="noopener noreferrer">
+                <Button variant="primary">
+                    <img src="your-image-source.jpg" alt="Resume Website" style={{ width: "20px", height: "20px" }} />
+                    View Resume
+                </Button>
+            </a>
+        )}
+        </Container>
+    </>
+    );
+};
+
+export default Portfolio;

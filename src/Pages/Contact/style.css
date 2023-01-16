@@ -1,0 +1,36 @@
+/* Define global styles */
+body {
+    background-color: yellow;
+  }
+  
+  /* Define styles for the contact section */
+  contact {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  /* Define styles for the heading */
+  h3 {
+    color: white;
+    text-align: center;
+  }
+  
+  /* Define styles for the contact information */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Define styles for the download link */
+  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
