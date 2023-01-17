@@ -1,0 +1,29 @@
+/* Navbar */
+.navbar {
+    background-color: #ff0000; /* red */
+  }
+  
+  .navbar-brand {
+    color: #ffff00; /* yellow */
+  }
+  
+  .nav-link {
+    color: #ffff00; /* yellow */
+  }
+  
+  /* Active tab */
+  .nav-link.active {
+    background-color: #ffff00; /* yellow */
+    color: #ff0000; /* red */
+  }
+  
+  /* Container */
+  .container {
+    background-color: #ff0000; /* red */
+    color: #ffff00; /* yellow */
+  }
+  
+  /* Project images */
+  .img-thumbnail {
+    border-color: #ffff00; /* yellow */
+  }

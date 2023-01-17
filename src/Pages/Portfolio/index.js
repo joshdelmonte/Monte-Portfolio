@@ -3,13 +3,10 @@ import {
   Container,
   Nav,
   Navbar,
-  NavDropdown,
-  Form,
-  FormControl,
   Button
 } from 'react-bootstrap';
 
-import './Portfolio.css';
+import './style.css';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('about');
@@ -57,11 +54,11 @@ const Portfolio = () => {
         {activeTab === 'about' && (
           <>
             <img
-              src="developer-photo.jpg"
+              src="../../Assets/images/profile_picture.jpg"
               alt="Developer Photo"
               className="mb-3"
             />
-            <p>Short bio about me</p>
+            <h3>~Feel free to browse my previous works and resume below~</h3>
           </>
         )}
         {activeTab === 'portfolio' && (
