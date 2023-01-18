@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './style.css';
-import Gmail from '../../Assets/images/gmail-icon.png';
+import Gmail from '../../Assets/images/gmail-icon.jpg';
 // import Resume from '../../Assets/images/document-icon.png';
 // import Facebook from '../../Assets/images/facebook-icon.jpg';
 // import LinkedIn from '../../Assets/images/linkedin-icon.png';
 //These are the icons I want to use for the social media links below
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+// import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 
 function Contact() {
   return (
@@ -24,10 +25,10 @@ function Contact() {
           <Col xs={12} md={4}>
             <h3>Social Media</h3>
             <ul>
-              <li> <FontAwesomeIcon icon={brands('faFacebook')} />
+              <li> <FontAwesomeIcon icon={faFacebook} />
                 <a href="https://www.facebook.com/joshdelmonte">Facebook</a>
               </li>
-              <li> <FontAwesomeIcon icon={brands('faLinkedin')} />
+              <li> <FontAwesomeIcon icon={faLinkedin} />
                 <a href="https://www.linkedin.com/in/joshua-delmonte-51090b215/">LinkedIn</a>
               </li>
             </ul>

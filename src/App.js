@@ -4,7 +4,7 @@ import './App.css';
 //Page Imports
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
 import About from './Pages/About';
@@ -22,25 +22,25 @@ function App() {
       </header>
       {/* Pulled out Home and Footer component from the header element */}
       <Router>
-    <Routes>
-      <Route path="/about">
-        <About />
-      </Route>
-      <Route path="/portfolio">
-        <Portfolio />
-      </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
-      <Route path="/resume">
-        <Resume />
-      </Route>
-      <Route path="/">
-        <Home /> 
-        <Footer />
-      </Route>
-    </Routes>
-</Router>
+        <Routes>
+          <Route path="/Pages/About">
+            <About />
+          </Route>
+          <Route path="/Pages/Portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/C">
+            <Contact />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/">
+            <Home />
+            <Footer />
+          </Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
