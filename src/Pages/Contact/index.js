@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './style.css';
 import Gmail from '../../Assets/images/gmail-icon.png';
-import Resume from '../../Assets/images/document-icon.png';
+// import Resume from '../../Assets/images/document-icon.png';
 // import Facebook from '../../Assets/images/facebook-icon.jpg';
 // import LinkedIn from '../../Assets/images/linkedin-icon.png';
-//These are the icons I want to use for the social media links
+//These are the icons I want to use for the social media links below
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
