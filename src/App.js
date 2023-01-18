@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+import profile_picture from '../Assets/images/profile_picture.jpg';
 import './App.css';
-
+// import MyNavbar from '../../Components/Navbar';
 //Page Imports
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Pages/Home';
-import Navbar from './Components/Navbar';
+import MyNavbar from './Components/Navbar';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
@@ -16,12 +16,13 @@ import Footer from './Components/Footer/footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Navbar />
-      </header>
-      {/* Pulled out Home and Footer component from the header element */}
       <Router>
+        <header className="App-header">
+        <img src={profile_picture} className="App-logo" alt="logo" />
+
+          <MyNavbar />
+        </header>      {/* Pulled out Home and Footer component from the header element */}
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />

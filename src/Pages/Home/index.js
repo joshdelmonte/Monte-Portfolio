@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import MyNavbar from '../Components/MyNavbar';
+// import MyNavbar from '../../Components/MyNavbar';
 
 function MyHomePage() {
   const [name, setName] = useState("Josh Delmonte");
@@ -11,7 +11,7 @@ function MyHomePage() {
   
   return (
     <div>
-      <MyNavbar />
+      {/* <MyNavbar /> */}
       <h1>Josh Delmonte</h1>
       <h2>Homepage</h2>
      
