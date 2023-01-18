@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import MyNavbar from '../Components/MyNavbar';
 
 function MyHomePage() {
   const [name, setName] = useState("Josh Delmonte");
@@ -7,15 +8,18 @@ function MyHomePage() {
   function handleChange(event) {
     setName(event.target.value);
   }
-
+  
   return (
     <div>
-      <h1>Home Page</h1>
-      <input type="text" placeholder="Enter your name" onChange={handleChange} value={name} />
-      <br />
+      <MyNavbar />
+      <h1>Josh Delmonte</h1>
+      <h2>Homepage</h2>
+     
       <Link to={`/greet/${name}`}>
         <button>Go to Greeting</button>
       </Link>
+      
+      
     </div>
   );
 }

@@ -23,25 +23,13 @@ function App() {
       {/* Pulled out Home and Footer component from the header element */}
       <Router>
         <Routes>
-          <Route path="/Pages/Home">
-            <Home /> 
-          </Route>
-          <Route path="/Pages/About">
-            <About />
-          </Route>
-          <Route path="/Pages/Portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/Pages/Contact">
-            <Contact />
-          </Route>
-          <Route path="/Pages/Resume">
-            <Resume />
-          </Route>
-          <Route path="/">
-            <Footer />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Pages/Contact" element={<Contact />} />
+          <Route path="/Pages/Resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
