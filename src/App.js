@@ -23,20 +23,22 @@ function App() {
       {/* Pulled out Home and Footer component from the header element */}
       <Router>
         <Routes>
+          <Route path="/Pages/Home">
+            <Home /> 
+          </Route>
           <Route path="/Pages/About">
             <About />
           </Route>
           <Route path="/Pages/Portfolio">
             <Portfolio />
           </Route>
-          <Route path="/C">
+          <Route path="/Pages/Contact">
             <Contact />
           </Route>
-          <Route path="/resume">
+          <Route path="/Pages/Resume">
             <Resume />
           </Route>
           <Route path="/">
-            <Home />
             <Footer />
           </Route>
         </Routes>
