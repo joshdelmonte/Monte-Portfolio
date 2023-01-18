@@ -8,7 +8,7 @@ import Gmail from '../../Assets/images/gmail-icon.png';
 //These are the icons I want to use for the social media links below
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
-
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 function Contact() {
   return (
@@ -24,10 +24,10 @@ function Contact() {
           <Col xs={12} md={4}>
             <h3>Social Media</h3>
             <ul>
-              <li> <FontAwesomeIcon icon={brands('facebook')} />
+              <li> <FontAwesomeIcon icon={brands('faFacebook')} />
                 <a href="https://www.facebook.com/joshdelmonte">Facebook</a>
               </li>
-              <li> <FontAwesomeIcon icon={brands('linkedin')} />
+              <li> <FontAwesomeIcon icon={brands('faLinkedin')} />
                 <a href="https://www.linkedin.com/in/joshua-delmonte-51090b215/">LinkedIn</a>
               </li>
             </ul>
