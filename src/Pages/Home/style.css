@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+    font-family: 'Times New Roman', cursive;
+}
+
+h1 {
+    color: red;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    color: red;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: red;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

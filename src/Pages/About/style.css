@@ -1,15 +1,19 @@
 body {
     background-color: yellow;
+    border-radius: 10px;
   }
   
   h3 {
     color: red;
+    border-radius: 10px;
   }
   
   p {
-    color: black;
+    color: orange;
+    border-radius: 10px;
   }
   
   .container {
     background-color: white;
+    border-radius: 10px;
   }
