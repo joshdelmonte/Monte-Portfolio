@@ -75,7 +75,7 @@ const Portfolio = () => {
                 <p>Project 1</p>
               </a>
               <a href="https://angi-adema.github.io/Movie-Finder/"><button type="button">Previous Works</button></a> */}
-                <p>Project 3</p>
+                <p>Project 2: Veggiebook</p>
               </a>
               <a href="#">
                 <img
