@@ -70,22 +70,11 @@ const Portfolio = () => {
                   alt="Project 1"
                   className="img-thumbnail mr-3 mb-3"
                 />
+                {/* <p>Sample Web Development</p>
+                <a href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/"><button type="button">Previous Works</button></a>
                 <p>Project 1</p>
               </a>
-              <a href="#">
-                <img
-                  src="project-2.jpg"
-                  alt="Project 2"
-                  className="img-thumbnail mr-3 mb-3"
-                />
-                <p>Project 2</p>
-              </a>
-              <a href="#">
-                <img
-                  src="project-3.jpg"
-                  alt="Project 3"
-                  className="img-thumbnail mr-3 mb-3"
-                />
+              <a href="https://angi-adema.github.io/Movie-Finder/"><button type="button">Previous Works</button></a> */}
                 <p>Project 3</p>
               </a>
               <a href="#">
@@ -122,3 +111,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
