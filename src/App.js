@@ -1,10 +1,9 @@
-import profile_picture from '../Assets/images/profile_picture.jpg';
+import profile_picture from './Assets/images/profile_picture.jpg';
 import './App.css';
 // import MyNavbar from '../../Components/Navbar';
 //Page Imports
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import MyNavbar from './Components/Navbar';
 import About from './Pages/About';
@@ -25,8 +24,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Pages/About" element={<About />} />
+          <Route path="/Pages/Portfolio" element={<Portfolio />} />
           <Route path="/Pages/Contact" element={<Contact />} />
           <Route path="/Pages/Resume" element={<Resume />} />
         </Routes>

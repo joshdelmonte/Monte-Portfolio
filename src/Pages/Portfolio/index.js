@@ -18,7 +18,7 @@ const Portfolio = () => {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Developer Name</Navbar.Brand>
+        <Navbar.Brand href="#home">Josh Monte Delmonte</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
