@@ -1,10 +1,13 @@
-import Container from 'react-bootstrap/Container';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { NavLink } from "react-router-dom";
+// import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function MyNavbar() {
+  
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -12,9 +15,10 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#about me">About me</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <NavLink to="/" href="#home">Home</NavLink>
+            <NavLink to="/about" href="#about me">About me</NavLink>
+            <NavLink to="/contact"href="#contact">Contact</NavLink>
+            <NavLink to="/portfolio"href="#portfolio" >Portfolio</NavLink>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.0">Resume</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1">Project 1: Movie Search Engine</NavDropdown.Item>
