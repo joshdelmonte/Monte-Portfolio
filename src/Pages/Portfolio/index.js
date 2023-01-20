@@ -1,113 +1,82 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Container,
-  Nav,
-  Navbar,
-  Button
+  Row,
+  Button,
+  Card
 } from 'react-bootstrap';
-
+import sampleWeb from '../../Assets/images/profile_picture.jpg';
 import './style.css';
 
 const Portfolio = () => {
-  const [activeTab, setActiveTab] = useState('about');
-
-  const handleTabChange = tab => {
-    setActiveTab(tab);
-  };
 
   return (
     <>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Josh Monte Delmonte</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link
-              active={activeTab === 'about'}
-              onClick={() => handleTabChange('about')}
-            >
-              About Me
-            </Nav.Link>
-            <Nav.Link
-              active={activeTab === 'portfolio'}
-              onClick={() => handleTabChange('portfolio')}
-            >
-              Portfolio
-            </Nav.Link>
-            <Nav.Link
-              active={activeTab === 'contact'}
-              onClick={() => handleTabChange('contact')}
-            >
-              Contact
-            </Nav.Link>
-            <Nav.Link
-              active={activeTab === 'resume'}
-              onClick={() => handleTabChange('resume')}
-            >
-              Resume
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
 
-      <Container className="my-5">
-        {activeTab === 'about' && (
-          <>
+      <Container className="display-flex">
+        <Row className="d-flex flex-wrap">
+          <Card className='project-card'>
+            <Card.Img src={sampleWeb} />
+            <Card.Body>
+              <Card.Title>Sample Web Development</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary" href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+          <Card className='project-card'>
+            <Card.Img src={sampleWeb} />
+            <Card.Body>
+              <Card.Title>Sample Web Development</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary" href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+          <Card className='project-card'>
+            <Card.Img src={sampleWeb} />
+            <Card.Body>
+              <Card.Title>Sample Web Development</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </Card.Text>
+              <Button variant="primary" href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/">Go somewhere</Button>
+            </Card.Body>
+          </Card>
+          {/* <a href="#">
             <img
-              src="../../Assets/images/profile_picture.jpg"
-              alt="Developer Photo"
-              className="mb-3"
+              src="project-1.jpg"
+              alt="Project 1"
+              className="img-thumbnail mr-3 mb-3"
             />
-            <h3>~Feel free to browse my previous works and resume below~</h3>
-          </>
-        )}
-        {activeTab === 'portfolio' && (
-          
-            <div className="d-flex flex-wrap">
-              <a href="#">
-                <img
-                  src="project-1.jpg"
-                  alt="Project 1"
-                  className="img-thumbnail mr-3 mb-3"
-                />
-                {/* <p>Sample Web Development</p>
-                <a href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/"><button type="button">Previous Works</button></a>
-                <p>Project 1</p>
-              </a>
-              <a href="https://angi-adema.github.io/Movie-Finder/"><button type="button">Previous Works</button></a> */}
-                <p>Project 2: Veggiebook</p>
-              </a>
-              <a href="#">
-                <img
-                  src="project-4.jpg"
-                  alt="Project 4"
-                    className="img-thumbnail mr-3 mb-3"
-                />
-                <p>Project 4</p>
-                </a>
-                <a href="#">
-                    <img src="project-5.jpg" alt="Project 5" className="img-thumbnail mr-3 mb-3" />
-                    <p>Project 5</p>
-                </a>
-                
-            </div>
-
-        )}  
-
-       
+            <p>Sample Web Development</p>
+            <a href="https://joshdelmonte.github.io/Preliminary-Sample-Web-Development/"><button type="button">Previous Works</button></a>
+            <p>Project 1</p>
+          </a> */}
+          {/* <a href="https://angi-adema.github.io/Movie-Finder/"><button type="button">Previous Works</button></a> */}
+          {/* <p>Project 2: Veggiebook</p>
         
-
-        {activeTab === 'resume' && (
-            <a href="https://bold.pro/my/joshua-delmonte" target="_blank" rel="noopener noreferrer">
-                <Button variant="primary">
-                    <img src="your-image-source.jpg" alt="Resume Website" style={{ width: "20px", height: "20px" }} />
-                    View Resume
-                </Button>
-            </a>
-        )}
-        </Container>
+        <a href="#">
+          <img
+            src="project-4.jpg"
+            alt="Project 4"
+            className="img-thumbnail mr-3 mb-3"
+          />
+          <p>Project 4</p>
+        </a>
+        <a href="#">
+          <img src="project-5.jpg" alt="Project 5" className="img-thumbnail mr-3 mb-3" />
+          <p>Project 5</p>
+        </a> */}
+        </Row>
+      </Container>
     </>
-    );
+  );
 };
 
 export default Portfolio;

@@ -13,22 +13,22 @@ import Resume from './Pages/Resume';
 import Footer from './Components/Footer/footer';
 
 function App() {
-  const [activePage, setActivePage] = React.useState('Home');
+  
   return (
     <div className="App">
       <Router>
         <header className="App-header">
         <img src={profile_picture} className="App-logo" alt="logo" />
 
-          <MyNavbar activePage={activePage}/>
+          <MyNavbar />
         </header>      {/* Pulled out Home and Footer component from the header element */}
 
         <Routes>
-          <Route path="/" element={<Home setActivePage={setActivePage} />} />
-          <Route path="/about" element={<About setActivePage={setActivePage}/>} />
-          <Route path="/projects" element={<Portfolio setActivePage={setActivePage}/>} />
-          <Route path="/contact" element={<Contact setActivePage={setActivePage}/>} />
-          <Route path="/resume" element={<Resume setActivePage={setActivePage}/>} />
+          <Route path="/" element={<Home  />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </Router>

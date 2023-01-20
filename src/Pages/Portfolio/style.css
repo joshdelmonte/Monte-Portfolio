@@ -27,3 +27,9 @@
   .img-thumbnail {
     border-color: #ffff00; /* yellow */
   }
+
+  .project-card{
+    max-width: "100px";
+    margin: "1rem";
+    text-align: center;
+  }
