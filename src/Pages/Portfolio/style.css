@@ -28,8 +28,10 @@
     border-color: #ffff00; /* yellow */
   }
 
-  .card-img{
-    width: "100px";
+  .samplecard{
+    width: 50%;
+    max-width: 50%;
     margin: "1rem";
+    height: auto;
     text-align: center;
   }

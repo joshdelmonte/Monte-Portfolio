@@ -1,20 +1,20 @@
 /* Chinese-inspired Red and Yellow Theme */
 
 body {
-    background-color: yellow;
+    background-color: rgb(22, 8, 155);
 }
 
 a {
-    color: red;
+    color: rgb(28, 130, 40);
 }
 
 /* Styling for the button */
 .btn-primary {
-    background-color: red;
-    color: yellow;
+    background-color: rgb(19, 216, 78);
+    color: white;
 }
 
 /* Styling for the container */
 .container {
-    border: 2px solid red;
+    border: 2px solid rgb(8, 11, 99);
 }

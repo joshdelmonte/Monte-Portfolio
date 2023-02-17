@@ -17,7 +17,7 @@ const Portfolio = () => {
       <Container className="display-flex">
         <Row className="d-flex flex-wrap">
           <Card className='project-card' style={{ maxWidth: '100px' }}>
-            <Card.Img src={document} fluid alt='...'/>
+            <Card.Img src={sampleWeb}className="samplecard" fluid alt='...'/>
             <Card.Body>
               <Card.Title>Sample Web Development</Card.Title>
               <Card.Text>
@@ -27,7 +27,7 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
           <Card className='project-card'>
-            <Card.Img src={sampleWeb} />
+            <Card.Img src={document} />
             <Card.Body>
               <Card.Title>Movie Finder</Card.Title>
               <Card.Text>
