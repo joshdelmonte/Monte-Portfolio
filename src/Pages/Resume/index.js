@@ -6,10 +6,9 @@ function Resume() {
     return (
         <div>
             <Container>
-                <a href="https://bold.pro/my/joshua-delmonte" target="_blank" rel="noopener noreferrer">
-                    <Button variant="primary">
-                        <img src="your-image-source.jpg" alt="Resume Link" style={{ width: "20px", height: "20px" }} />
-                        View Resume
+                <a href="https://1drv.ms/b/s!AhDbzGZkV_bainR6XblheiahgX_5?e=JZ3b2E" target="_blank" rel="noopener noreferrer">
+                    <Button variant="primary">  View Resume<FontAwesomeIcon icon="fa-light fa-file-user" />
+                    
                     </Button>
                 </a>
             </Container>

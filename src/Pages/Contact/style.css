@@ -1,12 +1,12 @@
 /* Define global styles */
 body {
-    background-color: yellow;
+    background-color: rgb(22, 8, 155);
     border-radius: 10px;
   }
   
   /* Define styles for the contact section */
   contact {
-    background-color: red;
+    background-color: rgb(19, 216, 78);
     padding: 20px;
     border-radius: 10px;
   }
@@ -34,7 +34,7 @@ body {
   
   /* Define styles for the download link */
   a {
-    color: white;
+    color:rgb(22, 8, 155);
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
