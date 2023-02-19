@@ -69,4 +69,4 @@ SOFTWARE.
 
 -Deployed URL
 
-"https://git.heroku.com/secure-citadel-00910.git "
+"https://joshdelmonte.github.io/MonteD3LMonte-Portfolio/ "
