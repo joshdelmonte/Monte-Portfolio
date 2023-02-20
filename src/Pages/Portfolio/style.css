@@ -1,26 +1,26 @@
 /* Navbar */
 .navbar {
-    background-color: #ff0000; /* red */
+    background-color: rgb(22, 8, 155);
   }
   
   .navbar-brand {
-    color: #ffff00; /* yellow */
+    color: white;
   }
   
   .nav-link {
-    color: #ffff00; /* yellow */
+    color: white
   }
   
   /* Active tab */
   .nav-link.active {
-    background-color: #ffff00; /* yellow */
-    color: #ff0000; /* red */
+    background-color:rgb(22, 8, 155);
+    color: white
   }
   
   /* Container */
   .container {
-    background-color: #ff0000; /* red */
-    color: #ffff00; /* yellow */
+    background-color:rgb(8, 11, 99);
+    color: white
   }
   
   /* Project images */
