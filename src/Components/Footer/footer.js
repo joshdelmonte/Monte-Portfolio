@@ -1,6 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+//These are the icons I want to use for the social media links below
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 function Footer() {
   return (
     <footer>

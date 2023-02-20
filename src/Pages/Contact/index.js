@@ -19,7 +19,7 @@ function Contact() {
           <Col xs={12} md={4}>
             <h3>~Please feel free to contact me~</h3>
             <ul>
-              <li id="email" href="joshdelmonte@gmail.com">Email<img src={Gmail} alt='G-mail' /></li>
+              <li id="email" href="joshdelmonte@gmail.com"><i><FontAwesomeIcon icon="fa-regular fa-envelope" />Email: joshdelmonte@gmail.com</i></li>
             </ul>
           </Col>
           <Col xs={12} md={4}>
