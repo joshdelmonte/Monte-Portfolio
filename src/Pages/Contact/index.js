@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './style.css';
-import Gmail from '../../Assets/images/gmail-icon.jpg';
+
 // import Resume from '../../Assets/images/document-icon.png';
 // import Facebook from '../../Assets/images/facebook-icon.jpg';
 // import LinkedIn from '../../Assets/images/linkedin-icon.png';
@@ -19,7 +19,7 @@ function Contact() {
           <Col xs={12} md={4}>
             <h3>~Please feel free to contact me~</h3>
             <ul>
-              <li id="email" href="joshdelmonte@gmail.com"><i><FontAwesomeIcon icon="fa-regular fa-envelope" />Email: joshdelmonte@gmail.com</i></li>
+              <li id="email" href="joshdelmonte@gmail.com"><i>Email: joshdelmonte@gmail.com</i></li>
             </ul>
           </Col>
           <Col xs={12} md={4}>

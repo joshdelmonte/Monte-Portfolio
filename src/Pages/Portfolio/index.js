@@ -15,7 +15,7 @@ const Portfolio = () => {
     <>
 
       <Container className="display-flex">
-        <Row className="d-flex flex-wrap">
+        <Row className="d-flex flex-wrap justify-content-center">
           <Card className='project-card' style={{ maxWidth: '100px' }}>
             <Card.Img src={sampleWeb}className="samplecard" fluid alt='...'/>
             <Card.Body>
@@ -31,8 +31,7 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Title>Movie Finder</Card.Title>
               <Card.Text>
-                This was my first project! It was a simple movie finder app that uses the OMDB API. We had started with 5 people, and it was a time when
-                people wer starting to drop the class, and we had lost 2 of our team mates. The three of us that stayed gave our best effort to finish.
+              As a novice project, I developed a movie finder app that utilizes the OMDB API. Initially, our team consisted of five members; however, as the project progressed, several classmates withdrew, leaving only three of us to complete the work. Despite this setback, we persevered and dedicated ourselves to the task at hand, ultimately producing a finished product that represented our best efforts.
               </Card.Text>
               <Button variant="primary" href="https://angi-adema.github.io/Movie-Finder/">~Click here for the link~</Button>
             </Card.Body>
