@@ -6,7 +6,9 @@ import {
   Card
 } from 'react-bootstrap';
 import sampleWeb from '../../Assets/images/Previous-additions.png';
-import document from '../../Assets/images/document-image.jpg';
+import movieFinder from '../../Assets/images/movie-finder.png';
+import veggiebook from '../../Assets/images/VeggieBook.png';
+// import document from '../../Assets/images/document-image.jpg';
 import './style.css';
 import Accordion from 'react-bootstrap/Accordion';
 
@@ -29,8 +31,8 @@ const Portfolio = () => {
               
             </Card.Body>
           </Card>
-          <Card className='project-card'>
-            <Card.Img src={document} />
+          <Card className='project-card' style={{ margin: 5 }}>
+            <Card.Img src={movieFinder} />
             <Card.Body>
               <Card.Title>Movie Finder</Card.Title>
               <Accordion>
@@ -41,8 +43,8 @@ const Portfolio = () => {
               <Button variant="primary" href="https://angi-adema.github.io/Movie-Finder/">~Click here for the link~</Button>
             </Card.Body>
           </Card>
-          <Card className='project-card'>
-            <Card.Img src={document} />
+          <Card className='project-card' style={{ margin: 5 }} >
+            <Card.Img src={veggiebook} />
             <Card.Body>
               <Card.Title>Veggiebook</Card.Title>
               <Accordion>
