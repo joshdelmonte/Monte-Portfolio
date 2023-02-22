@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 // import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 // import Nav from 'react-bootstrap/Nav';
@@ -19,18 +19,7 @@ function MyNavbar() {
             <NavLink to="/about" href="#about me"><Button variant= "success">A</Button>{' About Me '}</NavLink>
             <NavLink to="/contact"href="#contact"><Button variant ="success">C</Button>{' Contact '}</NavLink>
             <NavLink to="/portfolio"href="#portfolio" ><Button variant ="success">P</Button>{' Portfolio '}</NavLink>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.0">Resume</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Project 1: Movie Search Engine</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Project 2: Online Farmers Market, Veggiebook
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Note-Taker</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
