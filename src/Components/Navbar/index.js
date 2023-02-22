@@ -15,10 +15,10 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/" href="#home"><Button variant="success">Home</Button>{' '}</NavLink>
-            <NavLink to="/about" href="#about me"><Button variant= "success">About me</Button>{' '}</NavLink>
-            <NavLink to="/contact"href="#contact"><Button variant ="success">Contact</Button>{' '}</NavLink>
-            <NavLink to="/portfolio"href="#portfolio" ><Button variant ="success">Portfolio</Button></NavLink>
+            <NavLink to="/" href="#home"><Button variant="success">H</Button>{' Home '}</NavLink>
+            <NavLink to="/about" href="#about me"><Button variant= "success">A</Button>{' About Me '}</NavLink>
+            <NavLink to="/contact"href="#contact"><Button variant ="success">C</Button>{' Contact '}</NavLink>
+            <NavLink to="/portfolio"href="#portfolio" ><Button variant ="success">P</Button>{' Portfolio '}</NavLink>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.0">Resume</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.1">Project 1: Movie Search Engine</NavDropdown.Item>
