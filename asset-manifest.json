@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MonteD3LMonte-Portfolio/static/css/main.b7535500.css",
+    "main.js": "/MonteD3LMonte-Portfolio/static/js/main.f735112d.js",
+    "static/js/787.4415a777.chunk.js": "/MonteD3LMonte-Portfolio/static/js/787.4415a777.chunk.js",
+    "static/media/Previous-additions.png": "/MonteD3LMonte-Portfolio/static/media/Previous-additions.015f5f8887791f6a8b09.png",
+    "static/media/VeggieBook.png": "/MonteD3LMonte-Portfolio/static/media/VeggieBook.2e4fc534a2999325ded6.png",
+    "static/media/profile_picture.jpg": "/MonteD3LMonte-Portfolio/static/media/profile_picture.243d8acf8016558bd4e5.jpg",
+    "static/media/firstPortfolio.png": "/MonteD3LMonte-Portfolio/static/media/firstPortfolio.6fe40be71d38732f8f03.png",
+    "static/media/movie-finder.png": "/MonteD3LMonte-Portfolio/static/media/movie-finder.c10a4e76ece1e4d4cbfb.png",
+    "index.html": "/MonteD3LMonte-Portfolio/index.html",
+    "main.b7535500.css.map": "/MonteD3LMonte-Portfolio/static/css/main.b7535500.css.map",
+    "main.f735112d.js.map": "/MonteD3LMonte-Portfolio/static/js/main.f735112d.js.map",
+    "787.4415a777.chunk.js.map": "/MonteD3LMonte-Portfolio/static/js/787.4415a777.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7535500.css",
+    "static/js/main.f735112d.js"
+  ]
+}
