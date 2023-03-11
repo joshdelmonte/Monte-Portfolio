@@ -1,7 +1,7 @@
 {
   "name": "montes-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://joshdelmonte.github.io/Monte-Portfolio/",
   
   "dependencies": {
