@@ -2,7 +2,7 @@
   "name": "montes-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joshdelmonte.github.io/MonteD3LMonte-Portfolio",
+  "homepage": "https://joshdelmonte.github.io/Monte-Portfolio/",
   
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
